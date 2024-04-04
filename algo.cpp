@@ -21,7 +21,7 @@ do
 }
  while (i < n); //step 3
 {
-    ctr++
+    ctr++;
     if (arr[i] == item)
     {
         cout << "\n " << item << "found at position" << (i+1) < endl; //step 6
@@ -31,7 +31,11 @@ do
 }
 if (i == n) //step 5
 {
+    cout << "\n" << item << "not found in the array\n"; 
+    cout << "nNumber of comparison: " << ctr << endl;
 
+    cout << "\nContinue Search (y/n) : ";
+    cin >> ch;
 }
 
 int main()
