@@ -10,7 +10,7 @@ void LinearShort()
     char ch;
     int ctr;
     int item;
-}
+
 do
 {
    cout << "\nEnter the element you want to search: "; //step 1
@@ -19,8 +19,12 @@ do
    ctr = 0;
    i = 0; // step 2
 } while (i < n); //step 3
+{
+  i++;// step 4
+}
 
 int main()
 {
     return 0;
+}
 }
