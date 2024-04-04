@@ -6,7 +6,9 @@ int n;
 int i;
 
 void LinearShort(){
-    
+    char ch;
+    int ctr;
+    int item;
 }
 
 int main()
