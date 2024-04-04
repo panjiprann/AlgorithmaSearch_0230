@@ -6,7 +6,7 @@ int n;
 int i;
 
 void input (){
-    
+
 }
 
 void LinearShort()
@@ -40,6 +40,9 @@ if (i == n) //step 5
 
     cout << "\nContinue Search (y/n) : ";
     cin >> ch;
+}while ((ch == 'y') || ch ==  'Y');
+
+
 }
 
 int main();
