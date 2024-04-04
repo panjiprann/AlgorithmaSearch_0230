@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    
+int arr[20];
+int n;
+int i;
+
+int main()
+{
+    return o;
 }
