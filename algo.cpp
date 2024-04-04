@@ -62,7 +62,7 @@ if (i == n) //step 5
 }
 
 void display(){
-    cout << "array elements are: "
+    cout << "array elements are: ";
     for (i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
@@ -70,7 +70,10 @@ void display(){
     }
 }
 
-int main();
+int main()
 {
     return 0;
+    input();
+    LinearSearch();
+    display();
 }
