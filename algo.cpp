@@ -25,7 +25,7 @@ for (i = 0; i < n; ++i)
     cout << "<" << (i + 1) << ">: ";
     cin >> arr[i] ;
  }
- 
+
 }
 
 void LinearSearch()
@@ -59,8 +59,15 @@ if (i == n) //step 5
     cout << "\nContinue Search (y/n) : ";
     cin >> ch;
 }while ((ch == 'y') || ch ==  'Y');
+}
 
-
+void display(){
+    cout << "array elements are: "
+    for (i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+        cout << endl;
+    }
 }
 
 int main();
