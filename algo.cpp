@@ -18,11 +18,15 @@ do
    
    ctr = 0;
    i = 0; // step 2
-} while (i < n); //step 3
+}
+ while (i < n); //step 3
 {
   i++;// step 4
 }
-
+if (i == n) //step 5
+{
+    
+}
 int main()
 {
     return 0;
